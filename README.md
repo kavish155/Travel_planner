@@ -61,14 +61,14 @@ travel_planner/
 ### 📂 data/
    
  1) #### destinations.json
-  Stores a list of destinations with details such as:
-   -  Budget level
+    Stores a list of destinations with details such as:
+     -  Budget level
      
-   - Best seasons
+     - Best seasons
 
-   -Popular activities
+     -Popular activities
    
-   -Used for filtering destinations based on user preferences.
+     -Used for filtering destinations based on user preferences.
    
 ### 📂 tests/
  
