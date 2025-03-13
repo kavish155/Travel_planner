@@ -60,8 +60,9 @@ travel_planner/
   
 ### 📂 data/
    
- 1) #### destinations.json
-    Stores a list of destinations with details such as:
+  #### destinations.json
+   Stores a list of destinations with details such as:
+   
      -  Budget level
      
      - Best seasons
