@@ -37,7 +37,7 @@ travel_planner/
 ```
 ## Installation & Setup
 ### Prerequisites
-Ensure you have Python 3.11+ installed 
+Ensure you have Python 3.11+ installed and open Command prompt in windows
 
 1️⃣ **Clone the Repository**
   - git clone https://github.com/kavish155/Travel_planner.git
@@ -45,11 +45,12 @@ Ensure you have Python 3.11+ installed
   - cd Travel_planner
     
 2️⃣ **Set Up Virtual Environment**
-  - python -m venv .venv
+  -  python -m venv .venv
     
-  - source .venv/bin/activate  [ On Windows: .venv\Scripts\activate]
+  -  .venv\Scripts\activate
 
 3️⃣ **Install Dependencies**
+
   - pip install -r requirements.txt
 
 4️⃣ **Run the application using:**
