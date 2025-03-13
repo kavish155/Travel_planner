@@ -69,7 +69,7 @@ travel_planner/
    
    -Used for filtering destinations based on user preferences.
    
- 3) ### 📂 tests/
+3) ### 📂 tests/
  
 #### test_agent.py
 
