@@ -40,9 +40,9 @@ travel_planner/
 Ensure you have Python 3.11+ installed and open Command prompt in windows
 
 1️⃣ **Clone the Repository**
-  - git clone https://github.com/kavish155/Travel_planner.git
+  - ```git clone https://github.com/kavish155/Travel_planner.git```
     
-  - cd Travel_planner
+  - ```cd Travel_planner```
     
 2️⃣ **Set Up Virtual Environment**
   -  python -m venv .venv
