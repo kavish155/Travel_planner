@@ -36,7 +36,7 @@ travel_planner/
 └── requirements.txt     # for downloading packages
 ```
 ## Detailed Explanation of Each File & Folder
-### 📂 agent/
+1) ### 📂 agent/
 **This folder contains the core logic of the Travel Planner AI.**
 
 1) #### graph.py
@@ -57,7 +57,7 @@ travel_planner/
   
   - get_weather(city) → Fetches real-time weather using the OpenWeather API.
   
-### 📂 data/
+2) ### 📂 data/
 1) #### destinations.json
   Stores a list of destinations with details such as:
    -  Budget level
@@ -68,7 +68,7 @@ travel_planner/
    
    -Used for filtering destinations based on user preferences.
    
- ### 📂 tests/
+ 3) ### 📂 tests/
  
 #### test_agent.py
 
@@ -83,13 +83,13 @@ travel_planner/
 
 Uses pytest to run automated tests.
 
-### main.py
+## main.py
 
 - The main entry point of the application.
 
 - Handles user input, calls the AI workflow, and displays results.
 
-### requirements.txt
+## requirements.txt
 
 - Lists all required Python dependencies.
 
@@ -97,9 +97,9 @@ Uses pytest to run automated tests.
 
 ```pip install -r requirements.txt```
 
-### README.md
+## README.md
 
-- Project documentation with setup instructions, folder structure,  usage guide, and explanation of files.
+- **Project documentation with setup instructions, folder structure,  usage guide, and explanation of files.**
 
 ## Installation & Setup
 ### Prerequisites
