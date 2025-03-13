@@ -130,7 +130,7 @@ start writing code step by step given below
 **This 4 steps in command prompt will start the Travel_planner AI**
 
 
-## Example Workflow
+# Example Workflow
 1) **Enter Travel Preferences (budget, duration, interests, season)**
 
 2) **Get Recommended Destinations**
@@ -141,7 +141,7 @@ start writing code step by step given below
 
 5) **Ask Follow-up Questions about weather, activities, best seasons, etc.**
 
-## Testing
+# Testing
 
 ### Run test cases using pytest:
 - ```pytest tests/test_agent.py```
@@ -157,7 +157,7 @@ start writing code step by step given below
 ✅ **Follow-up Question Handling**
 
 
-## Error Handling & Edge Cases
+# Error Handling & Edge Cases
 
 ✔️ **No matching destinations → Suggest modifying preferences**
 
@@ -167,7 +167,7 @@ start writing code step by step given below
 
 ✔️ **Nonsense follow-up questions → Guide user to ask relevant queries**
 
-## Submission Requirements
+# Submission Requirements
 
 ✔️ **Source Code (GitHub/GitLab link)**
 
@@ -177,7 +177,7 @@ start writing code step by step given below
 
 ✔️ **Test Cases for major functionalities**
 
-## Resources
+# Resources
 - **LangGraph Documentation**
 - **Mistral API**
 - **OpenWeather API**
