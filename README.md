@@ -36,7 +36,8 @@ travel_planner/
 └── requirements.txt     # for downloading packages
 ```
 ## Detailed Explanation of Each File & Folder
-1) ### 📂 agent/
+
+### 📂 agent/
 **This folder contains the core logic of the Travel Planner AI.**
 
  1) #### graph.py
@@ -57,7 +58,7 @@ travel_planner/
   
     - get_weather(city) → Fetches real-time weather using the OpenWeather API.
   
-2) ### 📂 data/
+### 📂 data/
    
  1) #### destinations.json
   Stores a list of destinations with details such as:
@@ -69,9 +70,9 @@ travel_planner/
    
    -Used for filtering destinations based on user preferences.
    
-3) ### 📂 tests/
+### 📂 tests/
  
-#### test_agent.py
+  #### test_agent.py
 
    Contains unit tests to verify that:
  
@@ -97,13 +98,13 @@ travel_planner/
 
 - Users can install them with:
 
-```pip install -r requirements.txt```
+   ```pip install -r requirements.txt```
 
 ## README.md
 
 - **Project documentation with setup instructions, folder structure,  usage guide, and explanation of files.**
 
-## Installation & Setup
+# Installation & Setup
 ### Prerequisites
 Ensure you have Python 3.11+ installed and open Command prompt in windows and 
 start writing code step by step given below
