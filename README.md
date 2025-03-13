@@ -72,7 +72,8 @@ Ensure you have Python 3.11+ installed
 ### Run test cases using pytest:
 - pytest tests/test_agent.py
 
-##Expected tests:
+## Expected tests:
+
 ✅ **Preference Extraction**
 
 ✅ **Destination Recommendation**
