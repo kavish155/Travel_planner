@@ -34,3 +34,76 @@ travel_planner/
 │   ├── test_agent.py    # Unit tests for different components
 └── README.md            # Project documentation
 └── requirements.txt     # for downloading packages
+```
+## Installation & Setup
+### Prerequisites
+Ensure you have Python 3.11+ installed and an API key for OpenWeather.
+
+1️⃣ Clone the Repository
+sh
+Copy
+Edit
+git clone <your-repository-url>
+cd travel_planner
+2️⃣ Set Up Virtual Environment
+sh
+Copy
+Edit
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+3️⃣ Install Dependencies
+sh
+Copy
+Edit
+pip install -r requirements.txt
+4️⃣ Set Up Environment Variables
+Create a .env file and add:
+
+sh
+Copy
+Edit
+OPENWEATHER_API_KEY=your_openweather_api_key
+MISTRAL_API_KEY=your_mistral_api_key
+Usage
+Run the application using:
+
+sh
+Copy
+Edit
+python main.py
+Example Workflow
+Enter Travel Preferences (budget, duration, interests, season)
+Get Recommended Destinations
+Select a Destination
+View a Personalized Itinerary
+Ask Follow-up Questions about weather, activities, best seasons, etc.
+Testing
+Run test cases using pytest:
+
+sh
+Copy
+Edit
+pytest tests/
+Expected tests:
+
+✅ Preference Extraction
+✅ Destination Recommendation
+✅ Itinerary Generation
+✅ Follow-up Question Handling
+Error Handling & Edge Cases
+✔️ No matching destinations → Suggest modifying preferences
+✔️ Invalid destination selection → Prompt user until a valid choice is made
+✔️ API failures (Weather/Mistral) → Provide fallback messages
+✔️ Nonsense follow-up questions → Guide user to ask relevant queries
+
+Submission Requirements
+✔️ Source Code (GitHub/GitLab link)
+✔️ Documentation (This README file)
+✔️ Instructions to run the project
+✔️ Test Cases for major functionalities
+
+Resources
+LangGraph Documentation
+Mistral API
+OpenWeather API
+
