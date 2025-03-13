@@ -39,26 +39,27 @@ travel_planner/
 1) ### 📂 agent/
 **This folder contains the core logic of the Travel Planner AI.**
 
-1) #### graph.py
+ 1) #### graph.py
 
-  - Defines the LangGraph workflow for the AI system.
+    - Defines the LangGraph workflow for the AI system.
 
-  - Connects different steps such as extracting preferences, recommending destinations, generating itineraries, and answering follow-up questions.
+    - Connects different steps such as extracting preferences, recommending destinations, generating itineraries, and answering follow-up questions.
 
-2) #### state.py
+ 2) #### state.py
 
-  - Manages the state of the AI agent, storing user preferences, destinations, and conversation history.
+    - Manages the state of the AI agent, storing user preferences, destinations, and conversation history.
 
-3) #### tools.py
+ 3) #### tools.py
 
     Contains helper functions, such as:
   
-  - load_destinations() → Loads data from destinations.json.
+    - load_destinations() → Loads data from destinations.json.
   
-  - get_weather(city) → Fetches real-time weather using the OpenWeather API.
+    - get_weather(city) → Fetches real-time weather using the OpenWeather API.
   
 2) ### 📂 data/
-1) #### destinations.json
+   
+ 1) #### destinations.json
   Stores a list of destinations with details such as:
    -  Budget level
      
@@ -72,16 +73,17 @@ travel_planner/
  
 #### test_agent.py
 
- Contains unit tests to verify that:
-  - Preferences are extracted correctly.
+   Contains unit tests to verify that:
+ 
+   - Preferences are extracted correctly.
 
-  - Destinations are recommended accurately.
+   - Destinations are recommended accurately.
 
-  - Itineraries are properly generated.
+   - Itineraries are properly generated.
 
-  - Follow-up question handling works as expected.
+   - Follow-up question handling works as expected.
 
-Uses pytest to run automated tests.
+ Uses pytest to run automated tests.
 
 ## main.py
 
