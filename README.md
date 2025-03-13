@@ -51,7 +51,7 @@ travel_planner/
 
 3) #### tools.py
 
-  Contains helper functions, such as:
+    Contains helper functions, such as:
   
   - load_destinations() → Loads data from destinations.json.
   
