@@ -39,16 +39,20 @@ travel_planner/
 ### Prerequisites
 Ensure you have Python 3.11+ installed 
 
--**1️⃣ Clone the Repository
+1️⃣ Clone the Repository
   - git clone <your-repository-url>
   
   - cd travel_planner
--**2️⃣ Set Up Virtual Environment
+    
+2️⃣ Set Up Virtual Environment
   - python -m venv .venv
+    
   - source .venv/bin/activate  [ On Windows: .venv\Scripts\activate]
--**3️⃣ Install Dependencies
+
+3️⃣ Install Dependencies
   - pip install -r requirements.txt
--**4️⃣ Run the application using:
+
+4️⃣ Run the application using:
   - python main.py
 
 
