@@ -39,33 +39,33 @@ travel_planner/
 ### Prerequisites
 Ensure you have Python 3.11+ installed 
 
-1️⃣ Clone the Repository
+1️⃣** Clone the Repository**
   - git clone <your-repository-url>
   
   - cd travel_planner
     
-2️⃣ Set Up Virtual Environment
+2️⃣** Set Up Virtual Environment**
   - python -m venv .venv
     
   - source .venv/bin/activate  [ On Windows: .venv\Scripts\activate]
 
-3️⃣ Install Dependencies
+3️⃣** Install Dependencies**
   - pip install -r requirements.txt
 
-4️⃣ Run the application using:
+4️⃣ **Run the application using:**
   - python main.py
 
 
 ## Example Workflow
-1)Enter Travel Preferences (budget, duration, interests, season)
+1)** Enter Travel Preferences (budget, duration, interests, season)**
 
-2)Get Recommended Destinations
+2) **Get Recommended Destinations**
 
-3)Select a Destination
+3) **Select a Destination**
 
-4)View a Personalized Itinerary
+4) **View a Personalized Itinerary**
 
-5)Ask Follow-up Questions about weather, activities, best seasons, etc.
+5) **Ask Follow-up Questions about weather, activities, best seasons, etc.**
 
 ## Testing
 
@@ -73,26 +73,37 @@ Ensure you have Python 3.11+ installed
 - pytest tests/test_agent.py
 
 ##Expected tests:
-✅ Preference Extraction
-✅ Destination Recommendation
-✅ Itinerary Generation
-✅ Follow-up Question Handling
+✅ **Preference Extraction**
+
+✅ **Destination Recommendation**
+
+✅ **Itinerary Generation**
+
+✅ **Follow-up Question Handling**
 
 
 ## Error Handling & Edge Cases
-✔️ No matching destinations → Suggest modifying preferences
-✔️ Invalid destination selection → Prompt user until a valid choice is made
-✔️ API failures (Weather/Mistral) → Provide fallback messages
-✔️ Nonsense follow-up questions → Guide user to ask relevant queries
+
+✔️ **No matching destinations → Suggest modifying preferences**
+
+✔️ **Invalid destination selection → Prompt user until a valid choice is made**
+
+✔️** API failures (Weather/Mistral) → Provide fallback messages**
+
+✔️ **Nonsense follow-up questions → Guide user to ask relevant queries**
 
 ## Submission Requirements
-✔️ Source Code (GitHub/GitLab link)
-✔️ Documentation (This README file)
-✔️ Instructions to run the project
-✔️ Test Cases for major functionalities
+
+✔️ **Source Code (GitHub/GitLab link)**
+
+✔️ **Documentation (This README file)**
+
+✔️ **Instructions to run the project**
+
+✔️ **Test Cases for major functionalities**
 
 ## Resources
-LangGraph Documentation
-Mistral API
-OpenWeather API
+- **LangGraph Documentation**
+- **Mistral API**
+- **OpenWeather API**
 
