@@ -67,9 +67,9 @@ travel_planner/
      
    - Best seasons
 
-   -Popular activities
+   - Popular activities
    
-   -Used for filtering destinations based on user preferences.
+   - Used for filtering destinations based on user preferences.
    
 ### 📂 tests/
  
