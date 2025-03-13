@@ -37,18 +37,18 @@ travel_planner/
 ```
 ## Installation & Setup
 ### Prerequisites
-Ensure you have Python 3.11+ installed and an API key for OpenWeather.
+Ensure you have Python 3.11+ installed 
 
-1️⃣ Clone the Repository
-- git clone <your-repository-url>
-- cd travel_planner
-2️⃣ Set Up Virtual Environment
-- python -m venv .venv
-- source .venv/bin/activate  - On Windows: .venv\Scripts\activate
-3️⃣ Install Dependencies
-- pip install -r requirements.txt
-4️⃣ Run the application using:
-- python main.py
+-1️⃣ Clone the Repository
+  - git clone <your-repository-url>
+  - cd travel_planner
+-2️⃣ Set Up Virtual Environment
+  - python -m venv .venv
+  - source .venv/bin/activate  [ On Windows: .venv\Scripts\activate]
+-3️⃣ Install Dependencies
+  - pip install -r requirements.txt
+-4️⃣ Run the application using:
+  - python main.py
 
 
 ## Example Workflow
