@@ -35,6 +35,66 @@ travel_planner/
 └── README.md            # Project documentation
 └── requirements.txt     # for downloading packages
 ```
+## Detailed Explanation of Each File & Folder
+### 📂 agent/
+**This folder contains the core logic of the Travel Planner AI.**
+
+#### graph.py
+
+-Defines the LangGraph workflow for the AI system.
+
+-Connects different steps such as extracting preferences, recommending destinations, generating itineraries, and answering follow-up questions.
+
+#### state.py
+
+-Manages the state of the AI agent, storing user preferences, destinations, and conversation history.
+
+#### tools.py
+
+ Contains helper functions, such as:
+  
+- load_destinations() → Loads data from destinations.json.
+  
+- get_weather(city) → Fetches real-time weather using the OpenWeather API.
+  
+📂 data/
+destinations.json
+Stores a list of destinations with details such as:
+Budget level
+Best seasons
+Popular activities
+Used for filtering destinations based on user preferences.
+📂 tests/
+test_agent.py
+Contains unit tests to verify that:
+Preferences are extracted correctly.
+Destinations are recommended accurately.
+Itineraries are properly generated.
+Follow-up question handling works as expected.
+Uses pytest to run automated tests.
+📄 Main Project Files
+.env
+
+Stores API keys securely (e.g., OPENWEATHER_API_KEY, MISTRAL_API_KEY).
+This file is not committed to GitHub (excluded using .gitignore).
+.gitignore
+
+Ensures sensitive files (like .env) and unnecessary system files are not tracked by Git.
+main.py
+
+The main entry point of the application.
+Handles user input, calls the AI workflow, and displays results.
+requirements.txt
+
+Lists all required Python dependencies.
+Users can install them with:
+sh
+Copy
+Edit
+pip install -r requirements.txt
+README.md
+
+Project documentation with setup instructions, usage guide, and explanation of files.
 ## Installation & Setup
 ### Prerequisites
 Ensure you have Python 3.11+ installed and open Command prompt in windows and 
