@@ -33,3 +33,4 @@ travel_planner/
 ├── tests/
 │   ├── test_agent.py    # Unit tests for different components
 └── README.md            # Project documentation
+└── requirements.txt     # for downloading packages
