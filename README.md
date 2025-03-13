@@ -39,23 +39,23 @@ travel_planner/
 ### 📂 agent/
 **This folder contains the core logic of the Travel Planner AI.**
 
-#### graph.py
+1) #### graph.py
 
--Defines the LangGraph workflow for the AI system.
+  - Defines the LangGraph workflow for the AI system.
 
--Connects different steps such as extracting preferences, recommending destinations, generating itineraries, and answering follow-up questions.
+  - Connects different steps such as extracting preferences, recommending destinations, generating itineraries, and answering follow-up questions.
 
-#### state.py
+2) #### state.py
 
--Manages the state of the AI agent, storing user preferences, destinations, and conversation history.
+  - Manages the state of the AI agent, storing user preferences, destinations, and conversation history.
 
-#### tools.py
+3) #### tools.py
 
- Contains helper functions, such as:
+  Contains helper functions, such as:
   
-- load_destinations() → Loads data from destinations.json.
+  - load_destinations() → Loads data from destinations.json.
   
-- get_weather(city) → Fetches real-time weather using the OpenWeather API.
+  - get_weather(city) → Fetches real-time weather using the OpenWeather API.
   
 📂 data/
 destinations.json
