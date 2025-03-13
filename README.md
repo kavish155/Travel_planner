@@ -37,7 +37,8 @@ travel_planner/
 ```
 ## Installation & Setup
 ### Prerequisites
-Ensure you have Python 3.11+ installed and open Command prompt in windows
+Ensure you have Python 3.11+ installed and open Command prompt in windows and 
+start writing code step by step given below
 
 1️⃣ **Clone the Repository**
   - ```git clone https://github.com/kavish155/Travel_planner.git```
@@ -45,16 +46,16 @@ Ensure you have Python 3.11+ installed and open Command prompt in windows
   - ```cd Travel_planner```
     
 2️⃣ **Set Up Virtual Environment**
-  -  python -m venv .venv
+  -  ```python -m venv .venv```
     
-  -  .venv\Scripts\activate
+  -  ```.venv\Scripts\activate```
 
 3️⃣ **Install Dependencies**
 
-  - pip install -r requirements.txt
+  - ```pip install -r requirements.txt```
 
 4️⃣ **Run the application using:**
-  - python main.py
+  - ```python main.py```
 
 
 ## Example Workflow
@@ -71,7 +72,7 @@ Ensure you have Python 3.11+ installed and open Command prompt in windows
 ## Testing
 
 ### Run test cases using pytest:
-- pytest tests/test_agent.py
+- ```pytest tests/test_agent.py```
 
 ## Expected tests:
 
