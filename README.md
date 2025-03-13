@@ -126,7 +126,7 @@ start writing code step by step given below
 4️⃣ **Run the application using:**
   - ```python main.py```
 
-**This 4 steps in command promp will start the Travel_planner AI**
+**This 4 steps in command prompt will start the Travel_planner AI**
 
 
 ## Example Workflow
