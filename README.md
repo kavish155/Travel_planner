@@ -39,17 +39,17 @@ travel_planner/
 ### Prerequisites
 Ensure you have Python 3.11+ installed 
 
-1️⃣** Clone the Repository**
+1️⃣ **Clone the Repository**
   - git clone <your-repository-url>
   
   - cd travel_planner
     
-2️⃣** Set Up Virtual Environment**
+2️⃣ **Set Up Virtual Environment**
   - python -m venv .venv
     
   - source .venv/bin/activate  [ On Windows: .venv\Scripts\activate]
 
-3️⃣** Install Dependencies**
+3️⃣ **Install Dependencies**
   - pip install -r requirements.txt
 
 4️⃣ **Run the application using:**
@@ -57,7 +57,7 @@ Ensure you have Python 3.11+ installed
 
 
 ## Example Workflow
-1)** Enter Travel Preferences (budget, duration, interests, season)**
+1) **Enter Travel Preferences (budget, duration, interests, season)**
 
 2) **Get Recommended Destinations**
 
@@ -89,7 +89,7 @@ Ensure you have Python 3.11+ installed
 
 ✔️ **Invalid destination selection → Prompt user until a valid choice is made**
 
-✔️** API failures (Weather/Mistral) → Provide fallback messages**
+✔️ **API failures (Weather/Mistral) → Provide fallback messages**
 
 ✔️ **Nonsense follow-up questions → Guide user to ask relevant queries**
 
